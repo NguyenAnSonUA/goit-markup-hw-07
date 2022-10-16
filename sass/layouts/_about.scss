@@ -1,0 +1,53 @@
+.about-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.about-section-container {
+    display: flex;
+}
+
+.about-list {
+    display: flex;
+}
+
+.icon-about-list {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+}
+
+.icon-about-item {
+    transition: fill var(--transition);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
+}
+
+
+
+.about-list-item:not(:last-child) {
+    margin-right: 30px;
+    min-width: 270px;
+}
+
+.list-subtitle {
+    font-weight: 700;
+    line-height: 1.14;
+    color: #212121;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.list-description {
+    line-height: 1.7;
+    color: var(--desc-color);
+}
